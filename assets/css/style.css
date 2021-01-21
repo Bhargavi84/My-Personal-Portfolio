@@ -1,17 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
 body {
-    
-    font-family: "Nunito", sans-serif;
-    overflow-x: hidden !important;
-    font-size: 16px;
-    color: #161c2d;
-    padding: 0;
-    margin: 0;
-    background-position: right;
-    background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: url("/images/img1.jpg");
+}
+
+
+#header {
+  position: absolute;
+  z-index: 10;
+  width:100%;
 
 }
 
-header{
-    margin: 0;
+.navbar {
+  padding: 50px 0;
+  text-align: right;
+  align-items: right;
+  background-color:#e2e2d1;
+  width: 100%;
+  height: 50px;
+  
+  
+  
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 0px 0;
+  float: left;
+  margin-left: 2em;
+  color: black;
+  
+  
 }
  
+.navbar-link  {
+  color: black;
+  
+}
+
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 20px;
+  margin: 0 5px;
+  color: white;
+  background: none;
+
+}
+
+
+ .navbar-brand  .navbar-nav .navbar-item .navbar-link:hover{
+  color: white;
+  display: inline-block;
+  
+
+}
+
+
+.main {
+  position: relative;
+  min-height:100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 220px 0 200px;
+
+}
+
+.alert {
+  color: #ebebdf;
+  margin-left: 1em;
+}
+
+.main h2 {
+  margin-left: 1.5em;
+  padding: 0;
+  font-size: 1.6em;
+  color: #ebebdf;
+  text-transform: uppercase;
+  font-weight: 10;
+  font-family: sans-serif;
+  height: 20px;
+}
+
+.main p {
+  margin-top: 1em;
+  padding: 0;
+  font-size: 1em;
+  color: #dcdde1;
+  margin-left: 2em;
+
+}
+
+.main .btn {
+  background: #718093;
+  color: #fff;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left:2em;
+  background-color:rgb(70, 125, 226);
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  
+}
+.navbar-toggler{
+  background: rgba(0, 0, 0, 0.226);
+}
+@media (max-width: 1000px) {
+.main {
+  padding:200px 0;
+
+}
+
+.main h2{
+    font-size: 1em;
+
+}
+}
