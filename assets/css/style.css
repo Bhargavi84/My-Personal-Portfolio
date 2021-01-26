@@ -3,21 +3,11 @@
 
 
 body {
-  margin: 0;
-  padding:0;
-  text-decoration:none;
-  box-sizing: border-box;
+ overflow: hidden;
   font-family: sans-serif;
-  background-image: url("/images/img1.jpg");
+  background: url("/images/img1.jpg");
   align-items: center;
-}
-
-
-#header {
-  position: absolute;
-  z-index: 990;
-  width:100%;
-
+  
 }
 
 .navbar {
@@ -191,6 +181,7 @@ font-size:20px;
 }
 }
 
+
 #work-history {
   padding: 0;
   margin: 0;
@@ -240,15 +231,27 @@ h3 .text-uppercase {
   color: rgb(221, 27, 27);
   font-family: sans-serif;
   font-size: 18px;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-right: 0%;
+  transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .footer-para {
   color: #fff;
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
+  padding-right: 20px;
 }
 
 .footer-logo {
 font-size: 30px;
 font-family: 'Dancing Script', cursive;
+}
+footer{
+    margin-right: 0;
+    
 }
