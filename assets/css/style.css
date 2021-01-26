@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
 body {
@@ -7,7 +8,8 @@ body {
   text-decoration:none;
   box-sizing: border-box;
   font-family: sans-serif;
-  background: url("/images/img1.jpg");
+  background-image: url("/images/img1.jpg");
+  align-items: center;
 }
 
 
@@ -22,7 +24,7 @@ body {
   padding:  50px 0;
   text-align: right;
   align-items: right;
-  background-color:#e2e2d1;
+  background-color: #fff;
   width: 100%;
   height: 50px;
   transition: all .5s ease;
@@ -42,40 +44,24 @@ body {
   padding: 0px 0;
   float: left;
   margin-left: 2em;
-  color: black;
+  color: rgba(0, 0, 0, 0.178);
   
 }
- 
-.navbar-link  {
+ nav-link  {
   color:white;
+
   
 }
 
-.nav-item {
+ .nav-item {
   font-weight: 600;
   text-transform: uppercase;
   padding-left: 20px;
   margin: 0 5px;
   color: black;
   
+ }
 
-}
-
- .navbar-dark .navbar-brand  .navbar-nav .navbar-item .navbar-link:hover {
-  background-color: black;
-  display: inline-block;
-  
-
-}
-
-.navbar-nav {
-  color:white;
-  padding:0;
-}
-
-.navbar-item {
-  color: white;
-}
 .btn {
   background: #718093;
   color: #fff;
@@ -83,20 +69,34 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin-left:2em;
-  background-color:rgb(70, 125, 226);
+  background-color:rgb(58, 61, 250);
   margin-top: 1em;
 }
 
-.navbar-collapse {
+ .navbar-collapse {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  color:white;
+  padding: 0;
   
 }
+
+.navbar-nav {
+  color:white;
+  padding:0;
+    
+}
+
+
+.nav-item {
+  background-color: white;
+}
+
 .navbar-toggler{
 background: rgba(0, 0, 0, 0.61);
 margin-right: 2em;
+
+  
 }
 
 
@@ -110,13 +110,19 @@ margin-right: 2em;
 }
 
 .alert {
-  color: #ebebdf;
-  margin-left: 1em;
+  color: #000;
+  margin-left: 0rem;
   padding: 0;
+  background-color: rgb(139, 135, 127);
+  
+}
+
+.content {
+font-size:20px; 
 }
 
 #main h2 {
-  margin-left: 1.5em;
+  margin-left: 0;
   margin-bottom: 1em;
   padding: 0;
   font-size: 1.6em;
@@ -125,6 +131,7 @@ margin-right: 2em;
   font-weight: 10;
   font-family: sans-serif;
   height: 20px;
+  text-align: left;
 }
 
  #main p {
@@ -132,7 +139,7 @@ margin-right: 2em;
   padding: 0;
   font-size: 1em;
   color: #dcdde1;
-  margin-left: 2em;
+  margin-left: 0em;
   margin-bottom: 0;
 
 }
@@ -145,6 +152,7 @@ margin-right: 2em;
   font-size: 30px;
   font-weight: 100;
   height:20px;
+  align-content: center;
    
 }
 
@@ -155,10 +163,12 @@ margin-right: 2em;
    font-size: 18px;
    
 }
-.blockquote p{
+.blockquote p {
   margin-left: 1.5rem;
   font-family: sans-serif;
    font-size: 18px;
+   text-align: center;
+   align-content: center;
   
 }
 .blockquote .fa:hover {
@@ -173,7 +183,7 @@ margin-right: 2em;
 
 }
 
-.main h2{
+.main h2 {
   font-size: 1em;
   padding: 0;
     
@@ -186,31 +196,59 @@ margin-right: 2em;
   margin: 0;
 }
   
-  #work-history .text-uppercase{
-   margin-left: 1.5em;
-    margin-top:20;
-    font-size: 30px;
-    font-weight: 100;
-    text-align: left;
-    padding: 200;
-    float: center;
-
+   #work-history h3 {
+  text-align: center;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 1.6em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: sans-serif;
+  height: 20px;
 
  }
-
+  
+ 
 .feature-widget {
   box-sizing: border-box;
   border-width: 100%;
   border: 5px solid white;
-  float: left;
-  margin-left: 3rem;
+   margin-left: 3rem;
   color: white;
   border-radius: 60px 20px;
   font-size: 15px;
   padding-bottom: 20;
 }
 
+h3 .text-uppercase {
+ text-align: center;
+}
+
+.titles {
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
+}
 
 
+.footer-bar p {
+  font-weight: 300;
+  color: rgb(221, 27, 27);
+  font-family: sans-serif;
+  font-size: 18px;
+}
 
- 
+.footer-para {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.footer-logo {
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
+}
