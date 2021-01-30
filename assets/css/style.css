@@ -8,10 +8,11 @@ body {
   text-decoration:none;
   box-sizing: border-box;
   font-family: sans-serif;
-  background: url("/images/img1.jpg");
   align-items: center;
  -webkit-text-size-adjust: 100%;
   overflow: visible;
+  font-size: 16px;
+  max-width: 1140px;
   
 }
 
@@ -22,18 +23,20 @@ body {
 #header {
   position: absolute;
   z-index: 990;
-  width:100%;
+  max-width: 1140px;
 
 }
 
 
 .navbar {
-  padding:  20px 0;
+  padding:  20px 0 0;
   text-align: right;
   align-items: right;
-   width: 100%;
-  height: 50px;
+  width: 100%;
+  height: 80px;
   transition: all .5s ease;
+  max-width: 1140px;
+
   
  
 }
@@ -48,7 +51,7 @@ body {
 .navbar-brand {
   font-weight: 600;
   font-size: 1.5em;
-  padding: 0px 0;
+  padding: 20px 0;
   float: left;
   margin-left: 2em;
   color: rgb(58, 61, 250);
@@ -90,7 +93,7 @@ body {
 
 .navbar-nav {
   color:white;
-  padding:0;
+  margin: 0;
     
 }
 
@@ -104,14 +107,30 @@ margin-right: 2em;
   
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+     margin-right: auto;
+    position: relative!important;
+}
+   .mx-auto{
+ 
+   position:relative;
+}
 #main {
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   background-size: cover;
   background-position: center;
   padding: 0;
   background-image: float;
    margin-bottom: 0;
+   max-width: 1140px;
 }
 
 .alert {
@@ -126,7 +145,7 @@ margin-right: 2em;
 
 #main h2 {
   margin-top: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   padding: 0;
   font-size: 1.6em;
   color: #ebebdf;
@@ -147,6 +166,12 @@ margin-right: 2em;
 
 #main .container{
     margin-top: 100px;
+}
+#about-me .container{
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 1140px;
+
 }
 
 #about-me h2{
@@ -171,17 +196,23 @@ margin-left: 0;
 
 .blockquote  {
   color: #fff;
-   margin-left: 50px;
+   margin: 0;
    font-family: sans-serif;
    font-size: 18px;
+   align-items: center;
+   padding-left: 15px;
+   padding-right: 15px;
+   max-width: 1140px;
    
 }
 .blockquote p {
-  margin-left: 50px;
+  margin:0;
   font-family: sans-serif;
    font-size: 18px;
    text-align: center;
-   align-content: center;
+   align-items: center;
+   max-width: 1140px;
+   
   
 }
 .blockquote .fa:hover {
@@ -194,7 +225,7 @@ margin-left: 0;
 #main {
     padding: 0;
     padding-top: 30px;
-    min-height: 240px;
+    min-height: 200px;
     margin: 0 auto;
     max-width: 100%;
     
@@ -239,6 +270,7 @@ margin-left: 0;
   border-radius: 60px 20px;
   font-size: 15px;
   padding-bottom: 20;
+  max-width: 1140px;
 }
 
 h3 .text-uppercase {
