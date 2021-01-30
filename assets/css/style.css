@@ -2,21 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
+
 body {
   padding: 0;
-  margin: 0;
+  margin: auto;
   text-decoration:none;
   box-sizing: border-box;
   font-family: sans-serif;
-  align-items: center;
- -webkit-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
   overflow: visible;
   font-size: 16px;
   max-width: 1140px;
+  background-position: center;
+  overflow-x: hidden !important;
+  display:block;
   
 }
 
-.row {
+#main .row {
     margin: 0;
     padding:0;
 }
@@ -35,8 +38,8 @@ body {
   width: 100%;
   height: 80px;
   transition: all .5s ease;
-  max-width: 1140px;
-
+  background-color:rgb(216, 220, 231);
+  margin: auto;
   
  
 }
@@ -92,53 +95,34 @@ body {
 }
 
 .navbar-nav {
-  color:white;
+  
   margin: 0;
-    
+  
 }
-
-
 
 .navbar-toggler{
 background-color: rgb(190, 190, 197);
 margin-right: 2em;
-
-
   
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
 
-img {
-    vertical-align: middle;
-    border-style: none;
-     margin-right: auto;
-    position: relative!important;
-}
-   .mx-auto{
- 
-   position:relative;
-}
 #main {
   position: relative;
   min-height: 50vh;
   background-size: cover;
   background-position: center;
   padding: 0;
-  background-image: float;
    margin-bottom: 0;
    max-width: 1140px;
 }
 
 .alert {
   margin-top: 0;
-  color: #000;
+  color: #fff;
   margin-left: 0rem;
   padding: 0;
-  background-color: rgb(139, 135, 127);
+  background-color: rgb(87, 36, 228);
   }
 
   
@@ -148,7 +132,7 @@ img {
   margin-bottom: 0;
   padding: 0;
   font-size: 1.6em;
-  color: #ebebdf;
+  color: #000;
   text-transform: uppercase;
   font-weight: 10;
   font-family: sans-serif;
@@ -160,7 +144,7 @@ img {
   margin-top: 1em;
   padding: 0;
   font-size: 1em;
-  color: #dcdde1;
+  color: #000;
   margin-bottom: 0%;
 }
 
@@ -171,6 +155,7 @@ img {
     margin-top: 0;
     padding-top: 0;
     max-width: 1140px;
+    align-items: center;
 
 }
 
@@ -180,22 +165,10 @@ align-items: center;
 margin-left: 0;
 
     }
-
-
-  .text-uppercase {
-  color: #fff;
-  padding: 0;
-  margin: 0;
-  margin-left: 1.5em;
-  font-size: 30px;
-  font-weight: 100;
-  height:20px;
-  align-content: center;
-   
-}
+  
 
 .blockquote  {
-  color: #fff;
+  color: #000;
    margin: 0;
    font-family: sans-serif;
    font-size: 18px;
@@ -215,13 +188,9 @@ margin-left: 0;
    
   
 }
-.blockquote .fa:hover {
-  color: #dcdde1;
-  
-}
 
 
-@media(min-width: 1000px) {
+@media(min-width: 992px) {
 #main {
     padding: 0;
     padding-top: 30px;
@@ -229,7 +198,6 @@ margin-left: 0;
     margin: 0 auto;
     max-width: 100%;
     
-
 }
 
 #main h2 {
@@ -244,15 +212,21 @@ margin-left: 0;
 #work-history {
   padding: 0;
   margin-left: 0;
+  align-items: center;
+  
+
+}
+#work-history .feature-widget{
+ align-items: center;
 }
   
-   #work-history h3 {
+  #work-history h3 {
   text-align: center;
   margin-left: 1.5em;
   margin-bottom: 1em;
   padding: 0;
   font-size: 1.6em;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-weight: 100;
   font-family: sans-serif;
@@ -260,39 +234,73 @@ margin-left: 0;
 
  }
   
+ .text-uppercase {
+  color: #000;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.5em;
+  font-size: 30px;
+  font-weight: 100;
+  height:20px;
+  align-content: center;
+   
+}
  
 .feature-widget {
-  box-sizing: border-box;
   border-width: 100%;
-  border: 10px solid white; 
+  border: 20px solid 000; 
   margin-left: 1.5rem;
-  color: white;
-  border-radius: 60px 20px;
+  color: #000;
+  border-radius: 20px 20px;
   font-size: 15px;
   padding-bottom: 20;
   max-width: 1140px;
+  border-style: double;
+  align-items: center;
+  margin-right: auto;
 }
+
+
 
 h3 .text-uppercase {
  text-align: center;
 }
 
 .titles {
-  color: #fff;
+  color: #000;
 }
 
 .icon {
-  color: #fff;
+  color: #000;
 }
 
 #projects {
     margin-top: 50px;
     margin-left: 0;
+
 }
 
+.card-body {
+   box-sizing: border-box;
+   max-width: 1140px;
+    
+}
+
+.card-body img {
+    height: 233px;
+    object-fit: cover;
+}
+
+
+.footer-bar {
+
+    height: 50px;
+    width: 100%;
+
+}
 .footer-bar p {
   font-weight: 300;
-  color: rgb(221, 27, 27);
+  color: rgb(175, 41, 41);
   font-family: sans-serif;
   font-size: 15px;
   padding: 0;
@@ -302,7 +310,7 @@ h3 .text-uppercase {
 }
 
 .footer-para {
-  color: #fff;
+  color: rgb(175, 41, 41);
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
   padding-right: 20px;
@@ -311,9 +319,4 @@ h3 .text-uppercase {
 .footer-logo {
 font-size: 30px;
 font-family: 'Dancing Script', cursive;
-}
-
-footer{
-    margin-right: 0;
-    
 }
