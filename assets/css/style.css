@@ -2,32 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
-
+/*-----------------------------------Body*/
 body {
   padding: 0;
   margin: auto;
   text-decoration:none;
   box-sizing: border-box;
   font-family: sans-serif;
-   -webkit-text-size-adjust: 100%;
   overflow: visible;
   font-size: 16px;
   max-width: 1140px;
   background-position: center;
   overflow-x: hidden !important;
   display:block;
+  background-color: rgb(248, 246, 239);
   
 }
 
-
-#header {
-  position: absolute;
-  z-index: 990;
-  max-width: 1140px;
-
-}
-
-
+/*-----------------------------------Nav*/
 .navbar {
   padding:  20px 0 0;
   text-align: right;
@@ -37,8 +29,7 @@ body {
   transition: all .5s ease;
   background-color:rgb(216, 220, 231);
   margin: auto;
-  
- 
+   
 }
 
 .fixed-top {
@@ -59,9 +50,7 @@ body {
 }
  nav-link  {
   color:white;
-
-  
-}
+ }
 
  .nav-item {
   font-weight: 600;
@@ -71,7 +60,64 @@ body {
   color: black;
   
  }
+ .navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  
+}
 
+.navbar-nav {
+    margin: 0;
+  }
+
+.navbar-toggler{
+background-color: rgb(190, 190, 197);
+margin-right: 2em;
+  
+}
+
+/*-----------------------------------Main*/
+
+#main {
+  position: relative;
+  min-height: 50vh;
+  padding-left: 5rem;
+  margin-bottom: 0;
+  max-width: 1140px;
+  margin-left: 4rem;
+}
+
+
+#main h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 1.5em;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 10;
+  font-family: sans-serif;
+  height: 20px;
+  justify-content: center;
+}
+
+ #main p {
+  margin-top: 2rem;
+  padding: 0;
+  font-size: 1em;
+  color: #000;
+  margin-bottom: 0%;
+  margin-left: 2px;
+}
+
+#main .container{
+    margin-top: 100px;
+}
+ 
+
+/*-----------------------------------Button*/
 .btn {
   background: #718093;
   color: #fff;
@@ -83,75 +129,27 @@ body {
   margin-top: 1em;
 }
 
- .navbar-collapse {
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-  
-}
-
-.navbar-nav {
-  
-  margin: 0;
-  
-}
-
-.navbar-toggler{
-background-color: rgb(190, 190, 197);
-margin-right: 2em;
-  
-}
-
-
-#main {
-  position: relative;
-  min-height: 50vh;
-    padding-left: 5rem;
-   margin-bottom: 0;
-   max-width: 1140px;
-   margin-left: 4rem;
-}
-
-
-
-
+/*-----------------------------------Alert*/
 .alert {
   margin-top: 0;
   color: #fff;
   margin-left: 0rem;
   padding: 0;
   background-color: rgb(87, 36, 228);
-  
+  border-radius: 10px;
+  object-fit: cover;
   }
 
-  
+ /*-----------------------------------About Me*/  
 
-#main h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  font-size: 1.6em;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 10;
-  font-family: sans-serif;
-  height: 20px;
-  text-align: left;
+#about-me h2{
+        
+align-items: center;
+margin-left: 0;
+padding: 0%;
+
 }
 
- #main p {
-  margin-top: 2em;
-  padding: 0;
-  font-size: 1em;
-  color: #000;
-  margin-bottom: 0%;
-  margin-left: 5rem;
-}
-
-#main .container{
-    margin-top: 100px;
-}
 #about-me .container{
     margin-top: 0;
     padding-top: 0;
@@ -159,15 +157,6 @@ margin-right: 2em;
     
 
 }
-
-#about-me h2{
-        
-align-items: right;
-margin-left: 0;
-padding: 0%;
-
-    }
-  
 
 .blockquote  {
   color: #000;
@@ -184,34 +173,15 @@ padding: 0%;
   margin:0;
   font-family: sans-serif;
    font-size: 18px;
-   text-align: right;
+   text-align: center;
    align-items: center;
-   max-width: 1140px;
+   max-width: 100%;
 
    
   
 }
 
-
-@media(min-width: 1000px) {
-#main {
-    
-    padding-top: 30px;
-    min-height: 200px;
-    margin: 0 auto;
-    max-width: 100%;
-    
-}
-
-#main h2 {
-  font-size: 1em;
-  padding: 0;
-}
-
-
-}
-
-
+/* ---------------------------------------Work History*/
 
 #work-history {
   padding: 0;
@@ -257,11 +227,11 @@ padding: 0%;
   color: #000;
   border-radius: 20px 20px;
   font-size: 15px;
-  padding-bottom: 20;
-  max-width: 1140px;
+  padding: 0;
+  max-width: 650px;
   border-style: double;
   align-items: center;
-  margin-right: auto;
+  margin-right: 1.5rem;
 }
 
 
@@ -278,6 +248,7 @@ h3 .text-uppercase {
   color: #000;
 }
 
+/* ---------------------------------------Projects*/
 #projects {
     margin-top: 50px;
     margin-left: 0;
@@ -287,15 +258,17 @@ h3 .text-uppercase {
 .card-body {
    box-sizing: border-box;
    max-width: 1140px;
+   object-fit: cover;
     
 }
 
 .card-body img {
     height: 233px;
+    max-width: 350px;
     object-fit: cover;
 }
 
-
+/* ---------------------------------------Footer*/
 .footer-bar {
 
     height: 50px;
@@ -323,4 +296,19 @@ h3 .text-uppercase {
 .footer-logo {
 font-size: 30px;
 font-family: 'Dancing Script', cursive;
+}
+
+/* ---------------------------------------Media Queries */
+
+@media(min-width: 1000px) {
+#main {
+    
+    padding-top: 30px;
+    min-height: 200px;
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+
+
 }
