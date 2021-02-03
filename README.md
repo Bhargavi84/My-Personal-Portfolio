@@ -22,7 +22,7 @@
 # Wireframes
 ### When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. 
 ### I have used Balsamiq for designing the wireframes.
-### Below are the pictures for the same.
+### Below is the link for the same.
 
 # Features
 ## Existing Features
