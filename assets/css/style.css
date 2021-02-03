@@ -1,314 +1,359 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-
 /*-----------------------------------Body*/
+
 body {
-  padding: 0;
-  margin: auto;
-  text-decoration:none;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  overflow: visible;
-  font-size: 16px;
-  max-width: 1140px;
-  background-position: center;
-  overflow-x: hidden !important;
-  display:block;
-  background-color: rgb(248, 246, 239);
-  
+	padding: 0;
+	margin: auto;
+	-webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	font-family: sans-serif;
+	overflow: visible;
+	font-size: 16px;
+	max-width: 1140px;
+	background-position: center;
+	overflow-x: hidden !important;
+	display: block;
+    background-color: rgb(255, 254, 251);
+    
 }
 
+
 /*-----------------------------------Nav*/
+
 .navbar {
-  padding:  20px 0 0;
-  text-align: right;
-  align-items: right;
-  width: 100%;
-  height: 80px;
-  transition: all .5s ease;
-  background-color:rgb(216, 220, 231);
-  margin: auto;
-   
+	padding: 20px 0 0;
+	text-align: right;
+	-webkit-box-align: right;
+	    -ms-flex-align: right;
+	        align-items: right;
+	width: 100%;
+	height: 80px;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+    margin: auto;
+    background-color: rgb(100, 98, 236);
+    
 }
 
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+	position: fixed ;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
 .navbar-brand {
-  font-weight: 600;
-  font-size: 1.5em;
-  padding: 20px 0;
-  float: left;
-  margin-left: 2em;
-  color: rgb(58, 61, 250);
-  
+	font-weight: 600;
+	font-size: 1.5em;
+	padding: 20px 0;
+	float: left;
+	margin-left: 2em;
+	color: white;
 }
- nav-link  {
-  color:white;
- }
 
- .nav-item {
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-left: 20px;
-  margin: 0 5px;
-  color: black;
-  
- }
- .navbar-collapse {
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-  
+.nav-item {
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+    margin: 0 5px;
+    max-width: 100%;
+	
+}
+
+.navbar-collapse {
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: center;
+    padding: 0;
+    background-color: rgb(100, 98, 236); 
 }
 
 .navbar-nav {
-    margin: 0;
-  }
-
-.navbar-toggler{
-background-color: rgb(190, 190, 197);
-margin-right: 2em;
-  
+	margin: 0;
 }
 
+.navbar-toggler {
+    margin-right: 2em;
+    
+}
+
+.nav-link {
+    color: white;
+    
+}
+
+.navbar-toggler-icon{
+
+    background-color: rgb(90, 111, 143);
+}
 /*-----------------------------------Main*/
 
 #main {
-  position: relative;
-  min-height: 50vh;
-  padding-left: 5rem;
-  margin-bottom: 0;
-  max-width: 1140px;
-  margin-left: 4rem;
+	position: relative;
+	min-height: 50vh;
+	padding-left: 5rem;
+	margin-bottom: 0;
+	max-width: 1140px;
+	margin-left: 4rem;
 }
-
 
 #main h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  font-size: 1.5em;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 10;
-  font-family: sans-serif;
-  height: 20px;
-  justify-content: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 1.5em;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 10;
+	font-family: sans-serif;
+	height: 20px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
- #main p {
-  margin-top: 2rem;
-  padding: 0;
-  font-size: 1em;
-  color: #000;
-  margin-bottom: 0%;
-  margin-left: 2px;
+#main p {
+	margin-top: 2rem;
+	padding: 0;
+	font-size: 1em;
+	color: #000;
+	margin-bottom: 0%;
+	margin-left: 2px;
 }
 
-#main .container{
-    margin-top: 100px;
+#main .container {
+	margin-top: 100px;
 }
- 
 
 /*-----------------------------------Button*/
+
 .btn {
-  background: #718093;
-  color: #fff;
-  border-radius: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left:2em;
-  background-color:rgb(58, 61, 250);
-  margin-top: 1em;
+	background: #718093;
+	color: #fff;
+	border-radius: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 2em;
+	background-color: rgb(100, 98, 236);;
+	margin-top: 1em;
 }
+
 
 /*-----------------------------------Alert*/
+
 .alert {
-  margin-top: 0;
-  color: #fff;
-  margin-left: 0rem;
-  padding: 0;
-  background-color: rgb(87, 36, 228);
-  border-radius: 10px;
-  object-fit: cover;
-  }
-
- /*-----------------------------------About Me*/  
-
-#about-me h2{
-        
-align-items: center;
-margin-left: 0;
-padding: 0%;
-
+	margin-top: 0;
+	color: #fff;
+	margin-left: 0rem;
+	padding: 0;
+	background-color:  rgb(100, 98, 236);
+	border-radius: 10px;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
-#about-me .container{
-    margin-top: 0;
-    padding-top: 0;
-    max-width: 1140px;
-    
+/*-----------------------------------About Me*/
 
+#about-me h2 {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0%;
+    color: #000;
+	padding: 0;
+	margin-left: 1.5em;
+	font-size: 30px;
+	font-weight: 100;
+    height: 20px;
+    	
+}
+#about-me h2 .fa{
+
+    margin-left: 1rem;
 }
 
-.blockquote  {
-  color: #000;
-   margin: 0;
-   font-family: sans-serif;
-   font-size: 18px;
-   align-items: center;
-   padding-left: 15px;
-   padding-right: 15px;
-   max-width: 1140px;
-   
+#about-me .container {
+	margin-top: 1rem;
+	padding-top: 0;
+	
 }
+
+.blockquote {
+	color: #000;
+	margin-left: 7rem;
+	font-family: sans-serif;
+	font-size: 18px;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-left: 15px;
+    padding-right: 15px;
+    	
+}
+
 .blockquote p {
-  margin:0;
-  font-family: sans-serif;
-   font-size: 18px;
-   text-align: center;
-   align-items: center;
-   max-width: 100%;
+	margin: 1rem;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+    max-width: 100%;
+    margin-left: 6rem;
+}
 
-   
-  
+#about-me .fa{
+    margin-left: 6rem;
 }
 
 /* ---------------------------------------Work History*/
 
 #work-history {
-  padding: 0;
-  margin-left: 0;
-  align-items: right;
-  
+	padding: 0;
+	margin-left: 0;
+	-webkit-box-align: right;
+	    -ms-flex-align: right;
+	        align-items: right;
+}
 
+#work-history .feature-widget {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
-#work-history .feature-widget{
- align-items: center;
-}
-  
-  #work-history h3 {
-  text-align: center;
-  margin-left: 1.5em;
-  margin-bottom: 1em;
-  padding: 0;
-  font-size: 1.6em;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-family: sans-serif;
-  height: 20px;
 
- }
-  
- .text-uppercase {
-  color: #000;
-  padding: 0;
-  margin: 0;
-  margin-left: 1.5em;
-  font-size: 30px;
-  font-weight: 100;
-  height:20px;
-  align-content: center;
-   
+#work-history h3 {
+	text-align: center;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+	padding: 0;
+	font-size: 1.6em;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-family: sans-serif;
+	height: 20px;
 }
- 
+
+.text-uppercase {
+	color: #000;
+	padding: 0;
+	margin: 0;
+	margin-left: 1.5em;
+	font-size: 30px;
+	font-weight: 100;
+	height: 20px;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+}
+
 .feature-widget {
-  border-width: 100%;
-  border: 20px solid 000; 
-  margin-left: 1.5rem;
-  color: #000;
-  border-radius: 20px 20px;
-  font-size: 15px;
-  padding: 0;
-  max-width: 650px;
-  border-style: double;
-  align-items: center;
-  margin-right: 1.5rem;
+	border-width: 100%;
+	border: 20px solid 000;
+	margin-left: 1.5rem;
+	color: #000;
+	border-radius: 20px 20px;
+	font-size: 15px;
+	padding: 0;
+	max-width: 650px;
+	border-style: double;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-right: 1.5rem;
 }
-
-
 
 h3 .text-uppercase {
- text-align: center;
+	text-align: center;
 }
 
 .titles {
-  color: #000;
+	color: #000;
 }
 
 .icon {
-  color: #000;
+	color: #000;
 }
 
-/* ---------------------------------------Projects*/
-#projects {
-    margin-top: 50px;
-    margin-left: 0;
 
+/* ---------------------------------------Projects*/
+
+#projects {
+	margin-top: 50px;
+	margin-left: 0;
 }
 
 .card-body {
-   box-sizing: border-box;
-   max-width: 1140px;
-   object-fit: cover;
-    
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	max-width: 1140px;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 .card-body img {
-    height: 233px;
-    max-width: 350px;
-    object-fit: cover;
+	height: 233px;
+	max-width: 350px;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
+
 
 /* ---------------------------------------Footer*/
+
 .footer-bar {
-
-    height: 50px;
-    width: 100%;
-
+	height: 50px;
+	width: 100%;
 }
+
 .footer-bar p {
-  font-weight: 300;
-  color: rgb(175, 41, 41);
-  font-family: sans-serif;
-  font-size: 15px;
-  padding: 0;
-  margin-bottom: 0;
-  padding-right: 0%;
-  
+	font-weight: 300;
+	color: rgb(175, 41, 41);
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin-bottom: 0;
+	padding-right: 0%;
 }
 
 .footer-para {
-  color: rgb(175, 41, 41);
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-  padding-right: 20px;
+	color: rgb(175, 41, 41);
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	padding-right: 20px;
 }
 
 .footer-logo {
-font-size: 30px;
-font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
 }
+
 
 /* ---------------------------------------Media Queries */
 
-@media(min-width: 1000px) {
-#main {
-    
-    padding-top: 30px;
-    min-height: 200px;
-    margin: 0 auto;
-    max-width: 100%;
-    
+@media screen and (min-width: 992px) {
+	#main {
+		padding-top: 30px;
+		min-height: 200px;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+    #about-me {
+        padding-top: 30px;
+		min-height: 200px;
+		margin: 0 auto;
+		max-width: 100%;
+    }
 }
 
 
-}
+
