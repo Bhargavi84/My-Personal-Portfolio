@@ -64,7 +64,7 @@
 * All links were tested manually.
 
 ## Deployment
-* This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing the git to the Github repository. After every commitment, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in that i have index.html , css ,style.css, images.
+* This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing it to the Github repository. After every commit, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in which I have index.html, css,style.css and images.
 
 ## How to deploy
 
