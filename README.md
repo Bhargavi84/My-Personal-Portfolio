@@ -2,7 +2,7 @@
 ## Bhargavi 
 ####  FullStack Web developer
 
-### Hello and welcome to My Personal Portfolio
+#### Hello and welcome to My Personal Portfolio
 
 ## About Me 
 * I'm a Full stack Web developer, I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.
@@ -10,19 +10,23 @@
 
 # UX
 ## User story
-### 1. Users will know the details about my work, education and experiences and contatct deatils.
-### 2. As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters
-### 3. User will know complete details about me and will help in hiring me.
-### 4. As a new visitor of the website, I want to easily navigate on the page.
-### 5. As an interested client, I want to have a contact form easy to fill out.
-### 6. As a potential client, I want to get to know Bhargavi's background and personality to see if I want to hire her
-### 7. As a recruiter, I would like to get an insight into Bhargavi's work and I also want to have a printable resumé what I can present to my superior.
-### 8. As an employer, I visit this page to see a showcase of a potential employee's work.
+* 1. Users will know the details about my work, education and experiences and contatct deatils.
+* 2. As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters
+* 3. User will know complete details about me and will help in hiring me.
+* 4. As a new visitor of the website, I want to easily navigate on the page.
+* 5. As an interested client, I want to have a contact form easy to fill out.
+* 6. As a potential client, I want to get to know Bhargavi's background and personality to see if I want to hire her
+* 7. As a recruiter, I would like to get an insight into Bhargavi's work and I also want to have a printable resumé what I can present to my superior.
+* 8. As an employer, I visit this page to see a showcase of a potential employee's work.
 
 # Wireframes
 ### When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. 
 ### I have used Balsamiq for designing the wireframes.
-### Below is the link for the same.
+### Below are the images for the same.
+![wireframe](/readme-img/tab.png)
+![wireframe](/readme-img/mobile.png)
+![wireframe](/readme-img/desktop.png)
+
 
 # Features
 ## Existing Features

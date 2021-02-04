@@ -448,7 +448,117 @@ h3 .text-uppercase {
         margin-left: 1em;
         margin-right: 1em;
     }
+
+
+    .feature-widget {
+        font-size: 14px;
+    }
+    
 }
+
+@media(min-width: 300px) {
+
+        #work-history .feature-widget h3{
+            font-size: 14px;
+        }
+        .social-links {
+            font-size: 3px;
+            margin-left: 2rem;
+        }
+
+}
+
+@media(min-width: 700px) {
+
+    .card-body img{
+        max-width: 100%;
+        }
+
+        body{
+            font-size: 20px;
+        }
+        #work-history .feature-widget {
+            margin: 0 0 3em 0;
+            margin-left: 2em;
+            margin-right: 2em;
+            font-size: 15px;
+        }
+         #work-history .text-uppercase{
+                font-size: 20px;
+        }
+
+        #about-me p{
+            margin-left: 80px;
+        }
+
+        #about-me .fa{
+            margin-left: 80px;
+        }
+}
+@media(min-width: 250px) {
+    #work-history .feature-widget h3{
+            font-size: 12px;
+        }
+
+        #about-me h2{
+            font-size: 18px;
+        }
+
+        #work-history .text-uppercase{
+                font-size: 18px;
+        }
+
+        #projects h2{
+            font-size: 18px;
+        }
+
+        #main h2{
+            font-size: 18px;
+        }
+
+        #main p{
+            font-size: 18px;
+        }
+
+        #contact h2{
+            font-size: 20px;
+        }
+}
+
+@media(min-width: 1000px) {
+
+    body {
+        font-size: 20px;
+    }
+    #work-history .feature-widget h3{
+            font-size: 18px;
+        }
+
+        #about-me h2{
+            font-size: 20px;
+        }
+
+        #work-history .text-uppercase{
+                font-size: 20px;
+        }
+
+        #projects h2{
+            font-size: 22px;
+        }
+
+        #main h2{
+            font-size: 18px;
+        }
+
+        #main p{
+            font-size: 20px;
+        }
+
+        #contact h2{
+            font-size: 22px;
+        }
+}
+
 
 
 
