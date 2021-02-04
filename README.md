@@ -1,11 +1,11 @@
 # My-Personal-Portfolio
 ## Bhargavi 
-### FullStack Web developer
+####  FullStack Web developer
 
 ### Hello and welcome to My Personal Portfolio
 
 ## About Me 
-## I'm a Full stack Web developer, I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.
+* I'm a Full stack Web developer, I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.
 
 
 # UX
@@ -64,7 +64,7 @@
 * All links were tested manually.
 
 ## Deployment
-#### My first website was written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing the git to the Github repository. After every commitment, when you refresh the repository, you can see the changes. The main (landing) page of the website is named index.html 
+* This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing the git to the Github repository. After every commitment, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in that i have index.html , css ,style.css, images.
 
 ## How to deploy
 
@@ -91,11 +91,12 @@
 * The projects picture is the random picture from Google free images 
 * I learned a lot from browsing the templates on W3Schools
 * Slack Community was the greatest help me problem solving 
-
+### Disclaimer
+* The words and sentences, Pictures and attachments used in this project is imaginary and educational purposes only.
 
 ## Acknowledgement
-## There is always a scope for Improvement.
-## This site is Project Assesment Purpose only.
+#### There is always a scope for Improvement.
+#### This site is Project Assesment Purpose only.
 ## Bhargavi
 ### Code Institute
 #### 2020
