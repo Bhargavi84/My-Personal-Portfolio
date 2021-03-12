@@ -13,7 +13,7 @@ body {
 	max-width: 1140px;
 	background-position: center;
 	overflow-x: hidden !important;
-	background-color: rgb(255, 254, 251);
+	background-color: rgb(226, 213, 175);
     
 }
 
@@ -32,7 +32,7 @@ body {
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
     margin : 0;
-    background-color: rgb(100, 98, 236);
+    background-color: rgb(158, 131, 11); 
     
 }
 
@@ -72,7 +72,7 @@ body {
 	        align-items: center;
 	text-align: center;
     padding: 0;
-    background-color: rgb(100, 98, 236); 
+    background-color: rgb(158, 131, 11); 
 }
 
 .navbar-nav {
@@ -125,9 +125,9 @@ body {
         overflow-x: hidden !important;
 }
 
-img {
+img-fluid {
     margin-top: 2rem;
-    
+     
 }
 /*-----------------------------------Button*/
 
@@ -139,7 +139,7 @@ img {
 	padding-right: 10px;
     margin-left: 1em;
     margin-right: 1em;
-	background-color: rgb(100, 98, 236);;
+	background-color: rgb(158, 131, 11); 
 	margin-top: 1em;
 }
 
@@ -151,7 +151,7 @@ img {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	background-color:  rgb(100, 98, 236);
+	background-color:  rgb(158, 131, 11); 
 	border-radius: 10px;
 	-o-object-fit: cover;
 	   object-fit: cover;
@@ -309,8 +309,7 @@ h3 .text-uppercase {
 	max-width: 1140px;
 	-o-object-fit: cover;
        object-fit: cover;
-      
-    
+          
 }
 
 .card-body img {
@@ -321,6 +320,7 @@ h3 .text-uppercase {
        box-shadow: 0 4px 8px 0 rgba(77, 11, 231, 0.836);
     
 }
+
 #projects .content{
     padding-top: 1rem;
 }
