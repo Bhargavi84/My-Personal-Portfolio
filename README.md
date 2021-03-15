@@ -67,36 +67,36 @@
 ## Testing
 
 ## User Stories
-### As a user, I want to easily understand the main purpose of the site and learn more about the portfolio.
-### **TEST**: After the users load the page the first thing sees on the home page is a brief explanation Bhargavi's portfolio.
-### As a user, I want to easily to get to the Home Page.
-### **TEST**: Also in the home, there are two buttons one will redirect to the download CV page and another one is Hire Me(dummy).
-### As a user, I want to easily click on About Me page.
-### **TEST**: With one click the users can easily get into About Me PAGE.
-### As a user, I want to look into the more about Bhargavi's work experience.
-### **TEST**: After the user get into the page they will look about me and work history of Bhargavi.
-### As a user, I want to look into Projects done by Bhargavi.
-### **TEST**: After the user get into the page they will look my projects of Bhargavi.
-### As a user, I want to contact Bhargavi for hiring her or for any information needed.
-### As a user, I want to easily find a way to contact Bhargavi.
-### **TEST**: When the user clicks on contact page they can find many options to contact Bhargavi like email, phone, contact form and address.
-### All links were tested in replit.
+* As a user, I want to easily understand the main purpose of the site and learn more about the portfolio.
+* **TEST**: After the users load the page the first thing sees on the home page is a brief explanation Bhargavi's portfolio.
+* As a user, I want to easily to get to the Home Page.
+* **TEST**: Also in the home, there are two buttons one will redirect to the download CV page and another one is Hire Me(dummy).
+* As a user, I want to easily click on About Me page.
+* **TEST**: With one click the users can easily get into About Me PAGE.
+* As a user, I want to look into the more about Bhargavi's work experience.
+* **TEST**: After the user get into the page they will look about me and work history of Bhargavi.
+* As a user, I want to look into Projects done by Bhargavi.
+* **TEST**: After the user get into the page they will look my projects of Bhargavi.
+* As a user, I want to contact Bhargavi for hiring her or for any information needed.
+* As a user, I want to easily find a way to contact Bhargavi.
+* **TEST**: When the user clicks on contact page they can find many options to contact Bhargavi like email, phone, contact form and address.
+* All links were tested in replit.
 
 ## Navigation links redirect to the desired pages
-### Checked if all links in the navigation bar and check if they redirect to the desired pages.
-### Checked if the social links on the footer redirect to the desired page.
-### Home Page:
-### Checked if download CV is redirected to new file called Bhargavi CV:
-### About Me Page:
-### Checked if the page is redirected to the about me page.
-### Projects Page:
-### Checked if the page is redirected project page
-### Checked if the images are loading and for Hover effects
-### contact page:
-### Checked if the contact page is redirected to contact page.
-### Checked if the contact form is working without the blank.
-### Checked if the send message is working(dummy).
-### Checked if the social links in all the footer in all the pages is redirected to new pages respectively.
+* Checked if all links in the navigation bar and check if they redirect to the desired pages.
+* Checked if the social links on the footer redirect to the desired page.
+* **Home Page**:
+* Checked if download CV is redirected to new file called Bhargavi CV:
+* **About Me Page**:
+* Checked if the page is redirected to the about me page.
+* **Projects Page**:
+* Checked if the page is redirected project page
+* Checked if the images are loading and for Hover effects
+* **Contact page**:
+* Checked if the contact page is redirected to contact page.
+* Checked if the contact form is working without the blank.
+* Checked if the send message button is working(dummy).
+* Checked if the social links in all the footer in all the pages is redirected to new pages respectively.
 
 ## Deployment
 * This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing it to the Github repository. After every commit, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in which I have index.html, css,style.css and images.
@@ -134,5 +134,5 @@
 #### This site is Project Assesment Purpose only.
 ## Bhargavi
 ### Code Institute
-#### 2020
+#### 2021
 
