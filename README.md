@@ -10,19 +10,19 @@
 
 # UX
 ## User story
-* 1. Users will know the details about my work, education and experiences and contatct deatils.
-* 2. As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters
-* 3. User will know complete details about me and will help in hiring me.
-* 4. As a new visitor of the website, I want to easily navigate on the page.
-* 5. As an interested client, I want to have a contact form easy to fill out.
-* 6. As a potential client, I want to get to know Bhargavi's background and personality to see if I want to hire her
-* 7. As a recruiter, I would like to get an insight into Bhargavi's work and I also want to have a printable resumé what I can present to my superior.
-* 8. As an employer, I visit this page to see a showcase of a potential employee's work.
+* Users will know the details about my work, education and experiences and contatct deatils.
+* As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters
+* User will know complete details about me and will help in hiring me.
+* As a new visitor of the website, I want to easily navigate on the page.
+* As an interested client, I want to have a contact form easy to fill out.
+* As a potential client, I want to get to know Bhargavi's background and personality to see if I want to hire her
+* As a recruiter, I would like to get an insight into Bhargavi's work and I also want to have a printable resumé what I can present to my superior.
+* As an employer, I visit this page to see a showcase of a potential employee's work.
 
 # Wireframes
 ### When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. 
-### I have used Balsamiq for designing the wireframes.
-### Below are the images for the same.
+#### I have used Balsamiq for designing the wireframes.
+#### Below are the images for the same.
 ![wireframe](/readme-img/tab.png)
 ![wireframe](/readme-img/mobile.png)
 ![wireframe](/readme-img/desktop.png)
@@ -65,7 +65,38 @@
 * CSS Autoprefixer 
 
 ## Testing
-* All links were tested manually.
+
+## User Stories
+### As a user, I want to easily understand the main purpose of the site and learn more about the portfolio.
+### **TEST**: After the users load the page the first thing sees on the home page is a brief explanation Bhargavi's portfolio.
+### As a user, I want to easily to get to the Home Page.
+### **TEST**: Also in the home, there are two buttons one will redirect to the download CV page and another one is Hire Me(dummy).
+### As a user, I want to easily click on About Me page.
+### **TEST**: With one click the users can easily get into About Me PAGE.
+### As a user, I want to look into the more about Bhargavi's work experience.
+### **TEST**: After the user get into the page they will look about me and work history of Bhargavi.
+### As a user, I want to look into Projects done by Bhargavi.
+### **TEST**: After the user get into the page they will look my projects of Bhargavi.
+### As a user, I want to contact Bhargavi for hiring her or for any information needed.
+### As a user, I want to easily find a way to contact Bhargavi.
+### **TEST**: When the user clicks on contact page they can find many options to contact Bhargavi like email, phone, contact form and address.
+### All links were tested in replit.
+
+## Navigation links redirect to the desired pages
+### Checked if all links in the navigation bar and check if they redirect to the desired pages.
+### Checked if the social links on the footer redirect to the desired page.
+### Home Page:
+### Checked if download CV is redirected to new file called Bhargavi CV:
+### About Me Page:
+### Checked if the page is redirected to the about me page.
+### Projects Page:
+### Checked if the page is redirected project page
+### Checked if the images are loading and for Hover effects
+### contact page:
+### Checked if the contact page is redirected to contact page.
+### Checked if the contact form is working without the blank.
+### Checked if the send message is working(dummy).
+### Checked if the social links in all the footer in all the pages is redirected to new pages respectively.
 
 ## Deployment
 * This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing it to the Github repository. After every commit, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in which I have index.html, css,style.css and images.
