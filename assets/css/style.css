@@ -13,15 +13,14 @@ body {
 	max-width: 1140px;
 	background-position: center;
 	overflow-x: hidden !important;
-	background-color: rgb(226, 213, 175);
-    
+	background-image: url("/assets/images/bg-image.jpg"); 
 }
 
 
 /*-----------------------------------Nav*/
 
 .navbar {
-	padding: 20px 0 0;
+	padding: 0px 0 0;
 	text-align: right;
 	-webkit-box-align: right;
 	-ms-flex-align: right;
@@ -32,7 +31,7 @@ body {
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
     margin : 0;
-    background-color: rgb(158, 131, 11); 
+    background-color: rgb(177, 56, 151); 
     
 }
 
@@ -57,10 +56,11 @@ body {
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-left: 20px;
-    margin: 0;
-    max-width: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+      max-width: 100%;
     color: white;
-	
+  
 }
 
 .navbar-collapse {
@@ -71,12 +71,22 @@ body {
 	    -ms-flex-align: center;
 	        align-items: center;
 	text-align: center;
-    padding: 0;
-    background-color: rgb(158, 131, 11); 
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(177, 56, 151);
+    margin-top: 0;
+    
 }
 
-.navbar-nav {
-	margin: 0;
+.navbar-nav{
+	margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+ .nav-link {
+ align-items: center;
+
 }
 
 .nav-item:hover{
@@ -91,18 +101,18 @@ body {
 	min-height: 50vh;
 	padding-left: 5rem;
 	margin-bottom: 0;
-	max-width: 11400px;
+	max-width: 1140px;
 	
 }
 
 #main h2 {
-	margin-top: 0.5rem;
+	margin-top: 1.5rem;
 	margin-bottom: 0;
 	padding: 0;
 	font-size: 1.5em;
 	color: #000;
 	text-transform: uppercase;
-	font-weight: 10;
+	font-weight: 20px;
 	font-family: sans-serif;
 	height: 20px;
 	-webkit-box-pack: center;
@@ -127,6 +137,14 @@ body {
 
 img-fluid {
     margin-top: 2rem;
+    position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
      
 }
 /*-----------------------------------Button*/
@@ -139,7 +157,7 @@ img-fluid {
 	padding-right: 10px;
     margin-left: 1em;
     margin-right: 1em;
-	background-color: rgb(158, 131, 11); 
+	background-color: rgb(177, 56, 151);
 	margin-top: 1em;
 }
 
@@ -151,7 +169,7 @@ img-fluid {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	background-color:  rgb(158, 131, 11); 
+	background-color:  rgb(177, 56, 151);
 	border-radius: 10px;
 	-o-object-fit: cover;
 	   object-fit: cover;
@@ -165,7 +183,6 @@ img-fluid {
     align-items: center;
 	padding: 0%;
     color: #000;
-	padding: 0;
 	font-size: 30px;
 	font-weight: 100;
     height: 20px;
@@ -178,8 +195,7 @@ img-fluid {
 }
 
 #about-me .container {
-	margin-top: 1rem;
-	padding-top: 0;
+	margin-top: 2rem;
 	
 }
 
@@ -225,18 +241,8 @@ img-fluid {
 	-webkit-box-align: right;
 	-ms-flex-align: right;
     align-items: right;
-    max-width: 1140px;
+    
 }
-
-#work-history .feature-widget {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(77, 11, 231, 0.836);
-    padding: 1.5rem;
-    max-width: 1140px;
-}
-
 
 #work-history h3 {
 	text-align: center;
@@ -249,6 +255,7 @@ img-fluid {
 	font-weight: 100;
 	font-family: sans-serif;
 	height: 20px;
+  margin-right: 1.5em;
 }
 
 .text-uppercase {
@@ -267,17 +274,19 @@ img-fluid {
 .feature-widget {
 	border-width: 100%;
 	border: 20px solid 000;
-	margin-left: 1.5rem;
-	color: #000;
-	border-radius: 10px 10px;
+		color: #000;
+	border-radius: 10px 10px 10px 10px;
 	font-size: 18px;
-	padding: 0;
-	max-width: 650px;
 	border-style: double;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-    margin-right: 1.5rem;
+  text-align: center;
+  margin:0;
+  box-shadow: 0 4px 8px 0 rgba(77, 11, 231, 0.836);
+  max-width: 1140px;
+    padding: 3em;
+    
     
 }
 
@@ -312,8 +321,8 @@ h3 .text-uppercase {
           
 }
 
-.card-body img {
-	height: 233px;
+.card-body img:hover{
+	height: 250px;
 	max-width: 350px;
 	-o-object-fit: cover;
        object-fit: cover;
@@ -325,16 +334,27 @@ h3 .text-uppercase {
     padding-top: 1rem;
 }
 
+/* -------------------------------------Contact*/
+
+    #contact h2.title{
+      font-weight: 30px;
+    }
+
+
 /* ---------------------------------------Footer*/
 
 .footer-bar {
-	height: 50px;
+  height: 30px;
 	width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  margin: 0;
 }
 
  .footer-bar p {
 	font-weight: 300;
-	color: rgb(175, 41, 41);
+	color: black;
 	font-family: sans-serif;
 	font-size: 15px;
 	padding: 0;
@@ -349,11 +369,17 @@ h3 .text-uppercase {
 	font-family: 'Dancing Script', cursive;
 	font-size: 30px;
 	padding-right: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  
 }
 
 .footer-logo {
 	font-size: 30px;
 	font-family: 'Dancing Script', cursive;
+  margin-top: 1rem;
+  padding-top: 0;
+  
 }
 
 #footer .fa:hover{
@@ -375,6 +401,7 @@ h3 .text-uppercase {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    
 }
 
 
@@ -438,7 +465,7 @@ h3 .text-uppercase {
 
     #footer {
         padding-top: 30px;
-		min-height: 200px;
+		    min-height: 200px;
         margin: 0 auto;
         max-width: 100%;
         
@@ -465,7 +492,22 @@ h3 .text-uppercase {
             font-size: 3px;
             margin-left: 2rem;
         }
+          #contact h2{
+            margin-top: 2em;
+          }
+          .card-body img {
+	        -o-object-fit: cover;
+            object-fit: cover;
+            max-width: 300px;
+          }
 
+          #main {
+	    position: relative;
+	    min-height: 50vh;
+	    padding-left: 3rem;
+	    margin-bottom: 0;
+      margin-left:0;
+          }
 }
 
 @media(min-width: 700px) {
@@ -476,26 +518,46 @@ h3 .text-uppercase {
 
         body{
             font-size: 20px;
+            
+        }
+        .nav-item {
+          margin-right: 0rem;
+                    
+        }
+        .nav-item .nav-link {
+          font-size: 1rem;
+          
+          
         }
         #work-history .feature-widget {
             margin: 0 0 3em 0;
             margin-left: 2em;
             margin-right: 2em;
-            font-size: 15px;
+            
         }
-         #work-history .text-uppercase{
-                font-size: 20px;
+         #work-history h2.text-uppercase{
+                font-size: 25px;
         }
+         
 
         #about-me p{
-            margin-left: 80px;
+          margin-top: 0;
+            margin-left: 10rem;
+            font-size: 20px;
         }
+         #about-me h2.text-uppercase{
+            margin-top: 2.5em;
+            font-size: 25px;
+         }
 
         #about-me .fa{
-            margin-left: 80px;
+            margin-left: 10rem;
         }
+       
+
 }
-@media(min-width: 250px) {
+
+@media(min-width: 280px) {
     #work-history .feature-widget h3{
             font-size: 12px;
         }
@@ -522,28 +584,48 @@ h3 .text-uppercase {
 
         #contact h2{
             font-size: 20px;
+            
         }
+        #main {
+	    position: relative;
+	    min-height: 50vh;
+	    padding-left: 3rem;
+	    margin-bottom: 0;
+      margin-left:0;
+          }
+
+          #footer .fa{
+            margin-left: 1.5em;
+            
+          }
 }
 
 @media(min-width: 1000px) {
 
     body {
         font-size: 20px;
-    }
-    #work-history .feature-widget h3{
-            font-size: 18px;
+                     
+      }
+        .nav-item .nav-link{
+          font-size: 22px;
+          margin-right: 1em;
+          
         }
-
-        #about-me h2{
+    #work-history .feature-widget h3{
             font-size: 20px;
         }
 
+        #about-me h2{
+            margin:0;
+            font-size: 30px;
+        }
+
         #work-history .text-uppercase{
-                font-size: 20px;
+                font-size: 30px;
         }
 
         #projects h2{
-            font-size: 22px;
+            font-size: 30px;
         }
 
         #main h2{
@@ -555,17 +637,8 @@ h3 .text-uppercase {
         }
 
         #contact h2{
-            font-size: 22px;
+          margin-top: 2em;
+            font-size: 30px;
         }
-}
 
-
-
-
-
-
-
-
-
-
-
+        }
