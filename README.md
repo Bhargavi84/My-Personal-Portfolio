@@ -30,13 +30,12 @@
 
 # Features
 ## Existing Features
-### Navigation Menu 
-### About me 
-### Work History 
-### Projects
-### Contact Details
+#### Navigation Menu 
+#### About me 
+#### Projects
+#### Contact 
 
-#### Home, About me, work history Projects, contact
+#### Home, About me, Projects, Contact
 
 * In Home page Picture and few text.
 * In About me few lines about me. 
