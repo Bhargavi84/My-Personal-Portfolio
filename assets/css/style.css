@@ -13,7 +13,8 @@ body {
 	max-width: 1140px;
 	background-position: center;
 	overflow-x: hidden !important;
-	background: url("../images/bg-image.jpg"); 
+    background: url("../images/bg-image.jpg"); 
+    background-repeat: repeat-x;
 }
 
 
@@ -483,10 +484,13 @@ h3 .text-uppercase {
     
 }
 
-@media(min-width: 300px) {
+@media(min-width: 500px) {
 
-        #work-history .feature-widget h3{
-            font-size: 14px;
+    body{
+        background-repeat: repeat;
+    }
+        #work-history .feature-widget h3.title{
+            font-size: 18px;
         }
         .social-links {
             font-size: 3px;
@@ -508,6 +512,26 @@ h3 .text-uppercase {
 	    margin-bottom: 0;
       margin-left:0;
           }
+        #about-me h2.text-uppercase{
+            margin-top: 2.5em;
+            font-size: 25px;
+            margin-left: 3.5em;
+            
+         }
+
+        #about-me .fa{
+            margin-left: 0rem;
+        }
+
+         #work-history h2.text-uppercase{
+                font-size: 25px;
+        }
+
+        .feature-widget .service-texts {
+        font-size: 18px;
+
+        }
+       
 }
 
 @media(min-width: 700px) {
@@ -518,31 +542,46 @@ h3 .text-uppercase {
 
         body{
             font-size: 20px;
+            background-repeat: repeat;
             
         }
         .nav-item {
-          margin-right: 0rem;
-                    
+          margin-right: 0.5rem;
+          
+                            
         }
+        ul li a {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+            }
+
+
         .nav-item .nav-link {
           font-size: 1rem;
-          
-          
         }
+             
+        
         #work-history .feature-widget {
-            margin: 0 0 3em 0;
-            margin-left: 2em;
-            margin-right: 2em;
+        margin: 0 0 3em 0;
+        margin-left: 2em;
+        margin-right: 2em;
             
         }
          #work-history h2.text-uppercase{
                 font-size: 25px;
         }
          
+        .feature-widget .service-texts {
+        font-size: 18px;
+
+        }
+       #work-history .feature-widget h3{
+            font-size: 18px;
+        }
 
         #about-me p{
           margin-top: 0;
-            margin-left: 10rem;
+            margin-left: 8em;
             font-size: 20px;
         }
          #about-me h2.text-uppercase{
@@ -558,8 +597,14 @@ h3 .text-uppercase {
 }
 
 @media(min-width: 280px) {
+        body{
+            background-repeat: repeat;
+    }
     #work-history .feature-widget h3{
             font-size: 12px;
+        }
+        #work-history .feature-widget h3.title{
+            font-size: 15px;
         }
 
         #about-me h2{
@@ -604,6 +649,8 @@ h3 .text-uppercase {
 
     body {
         font-size: 20px;
+        background-repeat: repeat;
+        
                      
       }
         .nav-item .nav-link{
@@ -619,11 +666,11 @@ h3 .text-uppercase {
             margin:0;
             font-size: 30px;
         }
-
+        
         #work-history .text-uppercase{
                 font-size: 30px;
         }
-
+          
         #projects h2{
             font-size: 30px;
         }
