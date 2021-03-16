@@ -426,13 +426,13 @@ h3 .text-uppercase {
 
     .navbar {
         margin-right:0em;
-        margin-left:0em;;
+        margin-left:0em;
         max-width: 100%;
         
     }
     .navbar-toggler {
         margin-right: 2em;
-        margin-left: 0em; ;
+        margin-left: 0em;
     }
 
     #main {
@@ -502,7 +502,7 @@ h3 .text-uppercase {
           .card-body img {
 	        -o-object-fit: cover;
             object-fit: cover;
-            max-width: 300px;
+            
           }
 
           #main {
@@ -629,6 +629,7 @@ h3 .text-uppercase {
 
         #contact h2{
             font-size: 20px;
+            margin-top: 2em;
             
         }
         #main {
@@ -645,7 +646,7 @@ h3 .text-uppercase {
           }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1024px) {
 
     body {
         font-size: 20px;
@@ -661,7 +662,12 @@ h3 .text-uppercase {
     #work-history .feature-widget h3{
             font-size: 20px;
         }
-
+        #work-history {
+            margin-left:5.5em;
+        }
+        #work-history .feature-widget {
+            margin:0;
+        }
         #about-me h2{
             margin:0;
             font-size: 30px;
