@@ -335,12 +335,18 @@ h3 .text-uppercase {
     padding-top: 1rem;
 }
 
+
 /* -------------------------------------Contact*/
 
     #contact h2.title{
       font-weight: 30px;
+      color: #ffffff;
     }
 
+    #contact {
+      background: url("../images/contact.png"); 
+      
+    }
 
 /* ---------------------------------------Footer*/
 
