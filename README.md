@@ -20,8 +20,8 @@
 * As an employer, I visit this page to see a showcase of a potential employee's work.
 
 # Wireframes
-### When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. 
-#### I have used Balsamiq for designing the wireframes.
+* When I started working on this project, I had a picture of the site in my head. This picture has changed a lot in the last few weeks. 
+* I have used Balsamiq for designing the wireframes.
 #### Below are the images for the same.
 ![wireframe](/readme-img/tab.png)
 ![wireframe](/readme-img/mobile.png)
