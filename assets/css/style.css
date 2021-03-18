@@ -25,7 +25,7 @@ body {
 	text-align: right;
 	-webkit-box-align: right;
 	-ms-flex-align: right;
-	align-items: right;
+	align-items:center;
 	width: 100%;
      height: 80px;
      	-webkit-transition: all .5s ease;
@@ -113,7 +113,7 @@ body {
 	font-size: 1.5em;
 	color: #000;
 	text-transform: uppercase;
-	font-weight: 20px;
+	font-weight: 100;
 	font-family: sans-serif;
 	height: 20px;
 	-webkit-box-pack: center;
@@ -241,7 +241,7 @@ img-fluid {
 	margin: 0;
 	-webkit-box-align: right;
 	-ms-flex-align: right;
-    align-items: right;
+    align-items: center;
     
 }
 
@@ -273,7 +273,7 @@ img-fluid {
 
 /* ---------------------------------------Feature Widget*/
 .feature-widget {
-	border-width: 100%;
+	border-width: 10px;
 	border: 20px solid 000;
 		color: #000;
 	border-radius: 10px 10px 10px 10px;
@@ -339,7 +339,7 @@ h3 .text-uppercase {
 /* -------------------------------------Contact*/
 
     #contact h2.title{
-      font-weight: 30px;
+      font-weight: 700;
 }
 
     
