@@ -6,7 +6,6 @@
 body {
 	padding: 0;
 	margin: auto;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -15,6 +14,7 @@ body {
 	overflow-x: hidden !important;
 	background: url("../images/bg-image.jpg");
 	background-repeat: repeat-x;
+	background-size: cover;
 }
 
 
@@ -23,13 +23,9 @@ body {
 .navbar {
 	padding: 0px 0 0;
 	text-align: right;
-	-webkit-box-align: right;
-	-ms-flex-align: right;
 	align-items: center;
 	width: 100%;
 	height: 80px;
-	-webkit-transition: all .5s ease;
-	-o-transition: all .5s ease;
 	transition: all .5s ease;
 	margin: 0;
 	background-color: rgb(177, 56, 151);
@@ -63,11 +59,7 @@ body {
 }
 
 .navbar-collapse {
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
 	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
 	padding-top: 0;
@@ -111,8 +103,6 @@ body {
 	font-weight: 100;
 	font-family: sans-serif;
 	height: 20px;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 }
 
@@ -166,7 +156,6 @@ img-fluid {
 	padding: 0;
 	background-color: rgb(177, 56, 151);
 	border-radius: 10px;
-	-o-object-fit: cover;
 	object-fit: cover;
 }
 
@@ -174,8 +163,6 @@ img-fluid {
 /*-----------------------------------About Me*/
 
 #about-me h2 {
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	padding: 0%;
 	color: #000;
@@ -200,8 +187,6 @@ img-fluid {
 	color: #000;
 	font-family: sans-serif;
 	font-size: 18px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	padding: 0;
 	margin: 0;
@@ -213,8 +198,6 @@ img-fluid {
 	font-family: sans-serif;
 	font-size: 18px;
 	text-align: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	max-width: 100%;
 }
@@ -230,8 +213,6 @@ img-fluid {
 #work-history {
 	padding: 0;
 	margin: 0;
-	-webkit-box-align: right;
-	-ms-flex-align: right;
 	align-items: center;
 }
 
@@ -257,7 +238,6 @@ img-fluid {
 	font-size: 30px;
 	font-weight: 100;
 	height: 20px;
-	-ms-flex-line-pack: center;
 	align-content: center;
 }
 
@@ -271,8 +251,6 @@ img-fluid {
 	border-radius: 10px 10px 10px 10px;
 	font-size: 18px;
 	border-style: double;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
 	margin: 0;
@@ -303,17 +281,12 @@ h3 .text-uppercase {
 }
 
 .card-body {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	max-width: 1140px;
-	-o-object-fit: cover;
 	object-fit: cover;
 }
 
 .card-body img:hover {
-	height: 250px;
-	max-width: 350px;
-	-o-object-fit: cover;
 	object-fit: cover;
 	box-shadow: 0 4px 8px 0 rgba(77, 11, 231, 0.836);
 }
@@ -384,9 +357,6 @@ h3 .text-uppercase {
 	color: black;
 	background: #e7e5e5;
 	transition: all 0.35s ease-in-out;
-	-moz-transition: all 0.35s ease-in-out;
-	-webkit-transition: all 0.35s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -466,7 +436,6 @@ h3 .text-uppercase {
 		margin-top: 2em;
 	}
 	.card-body img {
-		-o-object-fit: cover;
 		object-fit: cover;
 	}
 	#main {
@@ -502,16 +471,14 @@ h3 .text-uppercase {
 	}
 	.nav-item {
 		margin-right: 0.5rem;
-    }
-    
+	}
 	ul li a {
 		padding-right: 0rem !important;
 		padding-left: 0rem !important;
 	}
 	.nav-item .nav-link {
-        font-size: 1rem;
-    }
-    
+		font-size: 1rem;
+	}
 	#work-history .feature-widget {
 		margin: 0 0 3em 0;
 		margin-left: 2em;
