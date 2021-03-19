@@ -106,16 +106,16 @@ The overall UX is clean and similar in all pages to keep consistency.
 * **About Me Page**:
 * Checked if the page is redirected to the about me page.
 * **Projects Page**:
-* Checked if the page is redirected project page
+* Checked if the page is redirected to project page
 * Checked if the images are loading and for Hover effects
 * **Contact page**:
 * Checked if the contact page is redirected to contact page.
 * Checked if the contact form is working without the blank.
-* Checked if the send message button is working(dummy).
+* Checked if the send message button is working.
 * Checked if the social links in all the footer in all the pages is redirected to new pages respectively.
 
 ## Deployment
-* This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"" and in the end pushing it to the Github repository. After every commit, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in which I have index.html, aboutme.html, projects.html, contact.html, css,style.css, cv,readme-img,README.md and images.
+* This is my first website and written in GitPod, and it's hosted using Github, deployed from the master branch (via Settings). I've saved after every important change starting with git status, git add ., git commit -m"message" and in the end pushing (git push)it to the Github repository. After every commit, when you refresh the repository, you can see the changes. The main (landing) page of the website is named assets in which I have index.html, aboutme.html, projects.html, contact.html, css,style.css, cv,readme-img,README.md and images.
 
 ## How to deploy
 #### Github Repository
