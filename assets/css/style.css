@@ -175,6 +175,7 @@ img-fluid {
 	font-size: 30px;
 	font-weight: 500;
     height: 20px;
+    margin: 0;
     
 }
 
@@ -221,7 +222,7 @@ img-fluid {
 	padding: 0;
 	margin: 0;
     align-items: center;
-    max-width: 85%;
+    min-width: 100%;
 }
 
 #work-history h3 {
@@ -400,7 +401,8 @@ h3 .text-uppercase {
 	#about-me {
 		padding-top: 30px;
 		min-height: 200px;
-		margin: auto;
+		margin-left: 2.5em;
+		margin-right: 2.5em;
 		max-width: 90%;
 		
 	}
@@ -422,8 +424,12 @@ h3 .text-uppercase {
 		margin-right: 1em;
 	}
 	.feature-widget {
-		font-size: 14px;
-	}
+        font-size: 14px;
+    }
+    #work-history{
+		margin-left: 2.5em;
+		margin-right: 2.5em;
+    }
 }
 
 @media(min-width: 500px) {
@@ -464,7 +470,10 @@ h3 .text-uppercase {
 	}
 	.feature-widget .service-texts {
 		font-size: 18px;
-	}
+    }
+    #work-history{
+        margin:0;
+    }
 }
 
 @media(min-width: 700px) {
@@ -492,8 +501,9 @@ h3 .text-uppercase {
     #work-history{
         max-width: 90%;
     }
+    
 	#work-history .feature-widget {
-		margin: 0 0 3em 0;
+		margin: auto;
 		
 	}
 	#work-history h2.text-uppercase {
