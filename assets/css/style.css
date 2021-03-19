@@ -14,7 +14,7 @@ body {
 	overflow-x: hidden !important;
 	background: url("../images/bg-image.jpg");
 	background-repeat: repeat-x;
-	background-size: cover;
+    background-size: cover;
 }
 
 
@@ -617,5 +617,5 @@ h3 .text-uppercase {
 	#contact h2 {
 		margin-top: 2em;
 		font-size: 30px;
-	}
+    }
 }
