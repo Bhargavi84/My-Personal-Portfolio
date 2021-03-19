@@ -175,7 +175,7 @@ img-fluid {
 	font-size: 30px;
 	font-weight: 500;
     height: 20px;
-    margin: 0;
+    
     
 }
 
@@ -237,6 +237,11 @@ img-fluid {
 	font-family: sans-serif;
 	height: 20px;
 	
+}
+
+#work-history h2 .fa {
+    margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 #work-history.text-uppercase {
@@ -525,7 +530,7 @@ h3 .text-uppercase {
 		font-size: 25px;
 	}
 	#about-me .fa {
-		margin-left: 10rem;
+		margin: auto;
 	}
 }
 
