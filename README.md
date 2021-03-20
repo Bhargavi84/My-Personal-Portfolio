@@ -11,20 +11,20 @@
 # UX
 ## User story
 * Users will know the details about my work, education and experiences and contatct deatils.
-* As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters
+* As a owner I can populate all my details for personal portfolio which can be accessed by the recruiters.
 * User will know complete details about me and will help in hiring me.
 * As a new visitor of the website, I want to easily navigate on the page.
 * As an interested client, I want to have a contact form easy to fill out.
 * As a potential client, I want to get to know Bhargavi's background and personality to see if I want to hire her
 * As a recruiter, I would like to get an insight into Bhargavi's work and I also want to have a printable resumé what I can present to my superior.
 * As an employer, I visit this page to see a showcase of a potential employee's work.
-## 1. Strategy
+## 1. Strategy.
 * Provide a platform where the user can look into my experience for hiring me or any user can use the website for inspirational purpose.
 * Provide a platform where user can look into my project work list and share it with other users if they want.
 ## 2. Scope
 * Fits in with my current skill-set of HTML, CSS.
-* Easy way to log in into into the website with hire me button for recruiters
-* Allow the user to look into Home page, aboutme Download cv, projects and contact page
+* Easy way to log in into into the website with hire me button for recruiters.
+* Allow the user to look into Home page, aboutme Download cv, projects and contact page.
 
 ## 3. Structure
 * As the website has two main ideas, Hiring and Project works I kept the website as simple as possible and easy to use. Instead of creating a lot of functionality.
@@ -48,10 +48,10 @@ The overall UX is clean and similar in all pages to keep consistency.
 * I have used fontawesome to source all the icons through out the website. 
 # Features
 ## Existing Features
-#### 1. Navigation Menu /Home page
-#### 2. About me 
-#### 3. Projects
-#### 4. Contact 
+#### 1. Navigation Menu /Home page.
+#### 2. About me. 
+#### 3. Projects.
+#### 4. Contact. 
 #### Description of navigation.
 * In Home page Picture and few text.
 * In About me few lines about Bhargavi. 
@@ -96,9 +96,9 @@ The overall UX is clean and similar in all pages to keep consistency.
 * As a user, I want to contact Bhargavi for hiring her or for any information needed.
 * As a user, I want to easily find a way to contact Bhargavi.
 * **TEST**: When the user clicks on contact page they can find many options to contact Bhargavi like email, phone, contact form and address. When you try to click send message without filling required feilds "Please fill out this field" will be poped up.
-* All links were tested in replit.
+* All links were tested in Replit, gitpod,github pages, mobile,tablet and laptop screens.
 
-## Navigation links redirect to the desired pages
+## Navigation links redirect to the desired pages.
 * Checked if all links in the navigation bar and check if they redirect to the desired pages.
 * Checked if the social links on the footer redirect to the desired page.
 * **Home Page**:
@@ -106,8 +106,8 @@ The overall UX is clean and similar in all pages to keep consistency.
 * **About Me Page**:
 * Checked if the page is redirected to the about me page.
 * **Projects Page**:
-* Checked if the page is redirected to project page
-* Checked if the images are loading and for Hover effects
+* Checked if the page is redirected to project page.
+* Checked if the images are loading and for Hover effects.
 * **Contact page**:
 * Checked if the contact page is redirected to contact page.
 * Checked if the contact form is working without the blank.
@@ -145,19 +145,19 @@ The Github repository was cloned and stored locally on my machine using the foll
 
 * *I cloned my Github Repository using HTTPS, under "Clone with HTTPS", and copied the link.
 
-* I opened SourceTree, opened a new tab and clicked on the Clone icon. I pasted the HTTPS link and added a local directory in my machine.
+* I opened Gitbash, I pasted the HTTPS link and added a local directory in my machine.
 
-* I opened VS Code, clicked on File/Open File and navigated to the local directory I had cloned my Github repository.
+* I opened IntelliJ IDEA community edition, clicked on File/Open File and navigated to the local directory I had cloned my Github repository.
 
 
 ## Credits
-* Most of the contents written by me
-* Inspiration from Code Institute Rosie resume project
-* Zoyathemes webiste design themes
-* Inspiration for ReadMe file is Krisztina Szabó Personal Portfolio Website
-* My mentor excellence_mentor llesamni for guidance
-* Tutor Support Code Institute
-* Slack Community
+* Most of the contents written by me.
+* Inspiration from Code Institute Rosie resume project.
+* Zoyothemes webiste design themes.
+* Inspiration for ReadMe file is Krisztina Szabó and Henrique Peroni Website.
+* My mentor excellence_mentor llesamni for guidance.
+* Tutor Support Code Institute.
+* Slack Community.
 
 ### Media 
 * The picture in the page is random professional working women from google
